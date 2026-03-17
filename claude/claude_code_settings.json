@@ -14,8 +14,8 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "${USERPROFILE}\\Desktop",
-        "${USERPROFILE}\\Downloads"
+        "C:\\Users\\LSH\\Desktop",
+        "C:\\Users\\LSH\\Downloads"
       ]
     },
     "context7": {

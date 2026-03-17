@@ -1,10 +1,4 @@
 {
-  "preferences": {
-    "coworkScheduledTasksEnabled": true,
-    "ccdScheduledTasksEnabled": true,
-    "sidebarMode": "chat",
-    "coworkWebSearchEnabled": true
-  },
   "mcpServers": {
     "filesystem": {
       "command": "npx",
@@ -22,5 +16,11 @@
         "@upstash/context7-mcp"
       ]
     }
+  },
+  "preferences": {
+    "coworkScheduledTasksEnabled": true,
+    "ccdScheduledTasksEnabled": true,
+    "sidebarMode": "chat",
+    "coworkWebSearchEnabled": true
   }
 }
