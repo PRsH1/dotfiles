@@ -3,7 +3,7 @@
 $dotfilesDir = "$env:USERPROFILE\dotfiles\claude"
 
 # 
-# Claude Desktop
+# Claude Desktop - 심볼릭 링크
 # 
 $claudePackage = Get-ChildItem "$env:LOCALAPPDATA\Packages" |
   Where-Object { $_.Name -like "Claude_*" } |
@@ -26,7 +26,7 @@ if (-not $claudePackage) {
 }
 
 # 
-# Claude Code (CLI)
+# Claude Code (CLI) - 심볼릭 링크
 # 
 $codeDir    = "$env:USERPROFILE\.claude"
 $codeSource = "$dotfilesDir\claude_code_settings.json"

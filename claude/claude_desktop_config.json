@@ -11,11 +11,15 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "${USERPROFILE}\\Desktop",
-        "${USERPROFILE}\\Downloads",
-        "D:\\Workspace\\MiniProjectImprove",
-        "${USERPROFILE}\\workspace\\MiniProjectImprove"
-
+        "C:\\Users\\LSH\\Desktop",
+        "C:\\Users\\LSH\\Downloads"
+      ]
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
       ]
     }
   }
