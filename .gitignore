@@ -1,0 +1,7 @@
+﻿*.env
+.env*
+secrets/
+*_secret*
+*_key*
+Thumbs.db
+desktop.ini

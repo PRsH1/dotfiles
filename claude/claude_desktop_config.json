@@ -1,0 +1,22 @@
+{
+  "preferences": {
+    "coworkScheduledTasksEnabled": true,
+    "ccdScheduledTasksEnabled": true,
+    "sidebarMode": "chat",
+    "coworkWebSearchEnabled": true
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${USERPROFILE}\\Desktop",
+        "${USERPROFILE}\\Downloads",
+        "D:\\Workspace\\MiniProjectImprove",
+        "${USERPROFILE}\\workspace\\MiniProjectImprove"
+
+      ]
+    }
+  }
+}
